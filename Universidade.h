@@ -8,9 +8,10 @@ private:
 
 public:
 
-	Universidade(const char* nomeParam);
+	Universidade();
 	~Universidade();
 	const char* GetNome();
+	char* SetNome(char* nomeParam);
 
 };
 

@@ -33,13 +33,37 @@
     <ClCompile Include="Aluno.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Universidade.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Salvar.cpp">
+      <Filter>Source Files\ClassesDoMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Exibir.cpp">
+      <Filter>Source Files\ClassesDoMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Recuperar.cpp">
+      <Filter>Source Files\ClassesDoMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Cadastrar.cpp">
+      <Filter>Source Files\ClassesDoMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaAcademico.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Principal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Disciplina.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
     </ClCompile>
-    <ClCompile Include="Universidade.cpp">
+    <ClCompile Include="Departamento.h">
+      <Filter>Header Files\ClassesEntidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Departamento.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,10 +74,28 @@
     <ClInclude Include="Aluno.h">
       <Filter>Header Files\ClassesEntidades</Filter>
     </ClInclude>
-    <ClInclude Include="Principal.h">
+    <ClInclude Include="Universidade.h">
       <Filter>Header Files\ClassesEntidades</Filter>
     </ClInclude>
-    <ClInclude Include="Universidade.h">
+    <ClInclude Include="Cadastro.h">
+      <Filter>Header Files\ClassesDoMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Exibir.h">
+      <Filter>Header Files\ClassesDoMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Salvar.h">
+      <Filter>Header Files\ClassesDoMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Recuperar.h">
+      <Filter>Header Files\ClassesDoMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SistemaAcademico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Principal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Disciplina.h">
       <Filter>Header Files\ClassesEntidades</Filter>
     </ClInclude>
   </ItemGroup>

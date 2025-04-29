@@ -1,13 +1,14 @@
 #ifndef ALUNO_H
 #define ALUNO_H
-#include "Universidade.h"
 
+
+class Disciplina;
 class Aluno {
 
 private:
     char ra[15];
     char nome[15];
-    Universidade* universidadeAtual;
+    Disciplina* disciplina;
 public:
     // Construtor
     Aluno(const char* ra, const char* nome);
@@ -22,8 +23,11 @@ public:
     char* GetNome();
 
     // Funções set
-    void SetUniversidadeAtual(Universidade* universidadeParam);
+    void SetDisciplina(Disciplina* disciplinaParam);
+	void SetRa(const char* raParam);
+    void SetNome(const char* nomeParam);
 
+    Aluno* prxAluno;
 };
 
 #endif // ALUNO_H

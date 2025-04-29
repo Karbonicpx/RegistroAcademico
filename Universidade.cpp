@@ -1,8 +1,8 @@
 #include "Universidade.h"
 #include <string.h>
 
-Universidade::Universidade(const char* nomeParam) {
-	strcpy_s(this->nome, sizeof(this->nome), nomeParam);
+Universidade::Universidade() {
+	// Construtor
 }
 
 Universidade::~Universidade() {
@@ -11,5 +11,11 @@ Universidade::~Universidade() {
 
 const char* Universidade::GetNome() {
 	// Retorna o nome da universidade
+	return nome;
+}
+
+char* Universidade::SetNome(char* nomeParam) {
+	// Copia o nome da universidade
+	strcpy_s(nome, sizeof(nome), nomeParam);
 	return nome;
 }

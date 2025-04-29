@@ -128,15 +128,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Aluno.cpp" />
+    <ClCompile Include="Cadastrar.cpp" />
+    <ClCompile Include="Departamento.cpp" />
+    <ClCompile Include="Departamento.h" />
+    <ClCompile Include="Disciplina.cpp" />
+    <ClCompile Include="Exibir.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Principal.cpp" />
+    <ClCompile Include="Recuperar.cpp" />
+    <ClCompile Include="Salvar.cpp" />
+    <ClCompile Include="SistemaAcademico.cpp" />
     <ClCompile Include="Universidade.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aluno.h" />
+    <ClInclude Include="Cadastro.h" />
+    <ClInclude Include="Disciplina.h" />
+    <ClInclude Include="Exibir.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Principal.h" />
+    <ClInclude Include="Recuperar.h" />
+    <ClInclude Include="Salvar.h" />
+    <ClInclude Include="SistemaAcademico.h" />
     <ClInclude Include="Universidade.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

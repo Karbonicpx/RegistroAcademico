@@ -6,6 +6,9 @@ using std::cin;
 
 Menu::Menu() {
 	// Construtor padrão
+	menuInput[0] = NULL;
+	userInput = NULL;
+	objetoCadastro = new Cadastro();
 }
 
 Menu::~Menu() {
@@ -50,15 +53,15 @@ void Menu::MenuCadastro() {
 	system("CLS");
 	cout << "=== CADASTRO ===" << endl;
 	cout << "Escolha uma opcao: \n" << endl;
-	cout << "1. Cadastrar Aluno" << endl;
-	cout << "2. Cadastrar Universidade" << endl;
-	cout << "3. Cadastrar Departamento" << endl;
-	cout << "4. Cadastrar Disciplina" << endl;
+	cout << "1. Cadastrar Universidade" << endl;
+	cout << "2. Cadastrar Departamento" << endl;
+	cout << "3. Cadastrar Disciplina" << endl;
+	cout << "4. Cadastrar Aluno" << endl;
 	cout << "5. Voltar ao menu inicial" << endl;
 	cin >> menuInput[0];
 	switch (menuInput[0]) {
 	case '1':
-		// Código para cadastrar aluno
+		objetoCadastro->CadastroUniversidade();
 		break;
 	case '2':
 		// Código para cadastrar universidade
@@ -68,6 +71,8 @@ void Menu::MenuCadastro() {
 		break;
 	case '4':
 		// Código para cadastrar disciplina
+		objetoCadastro->CadastroAluno();
+		MenuCadastro();
 		break;
 
 	case '5':

@@ -1,5 +1,6 @@
 #ifndef _MENU_H_
 #define _MENU_H_
+class Cadastro;
 
 
 class Menu {
@@ -8,7 +9,7 @@ class Menu {
 private:
 	char menuInput[1];
 	char* userInput;
-
+	Cadastro* objetoCadastro;
 public:
 	Menu();
 	~Menu();
