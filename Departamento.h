@@ -2,6 +2,7 @@
 #define DEPARTAMENTO_H
 class Universidade;
 class Disciplina;
+class Departamento;
 
 class Departamento {
 private:
@@ -10,6 +11,7 @@ private:
 	Universidade* universidadeAssociada;
 	Disciplina* disciplinaAtual;
 	Disciplina* disciplinaProxima;
+	Departamento* proximoDpt;
 
 
 public:
@@ -21,9 +23,12 @@ public:
 	void IncluaDisciplina(Disciplina* proximaDisciplina);
 	// Set e Get
 	void SetNome(char* nomeParam);
+	void SetUniversidadeAssociada(Universidade* universidadeParam);
 	char* GetNome();
 	Universidade* GetUniversidadeAssociada();
-	void SetUniversidadeAssociada(Universidade* universidadeParam);
+	Departamento* GetProximoDpt();
+	void SetProximoDpt(Departamento* proximoDptParam);
+	
 	
 
 };

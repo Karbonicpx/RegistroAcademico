@@ -4,9 +4,6 @@
 
 class Cadastro {
 
-private:
-
-
 public:
 	// Construtor e destrutor
 	Cadastro();

@@ -1,20 +1,21 @@
 #ifndef SISTEMAACADEMICO_H
 #define SISTEMAACADEMICO_H
-class Cadastro;
-class Exibir;
-class Salvar;
-class Recuperar;
+class Universidade;
+class Menu;
 
 class SistemaAcademico {
 
 private:
-	Cadastro* objetoCadastro;
-	Exibir* objetoExibir;
-	Salvar* objetoSalvar;
-	Recuperar* objetoRecuperar;
+
+	Menu* objMenu;
+	Universidade* universidadeProx;
+	Universidade* universidadeAtual;
 public:
 	SistemaAcademico();
 	~SistemaAcademico();
+	void IncluirUniversidade(Universidade* universidadeIncluida);
+	Menu* GetMenu();
+	
 	
 };
 

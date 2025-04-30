@@ -6,16 +6,24 @@
 using std::cout;
 using std::endl;
 
-Disciplina::Disciplina(int numAlunosParam = 45) {
+Disciplina::Disciplina(int numAlunosParam) {
 	// Construtor padrão
-	departamentoAssociado = NULL;
-	prxDisciplina = NULL;
+	departamentoAssociado = nullptr;
+	prxDisciplina = nullptr;
+	alunoAtual = nullptr;
+	proximoAluno = nullptr;
 	numAlunos = numAlunosParam;
+	contAlunos = 0;
+	nomeDisciplina[0] = '\0';
+	
+	
 }
 Disciplina::~Disciplina() {
 	// Destrutor padrão
-	departamentoAssociado = NULL;
-	prxDisciplina = NULL;
+	departamentoAssociado = nullptr;
+	prxDisciplina = nullptr;
+	alunoAtual = nullptr;
+	proximoAluno = nullptr;
 }
 
 void Disciplina::IncluirAluno(Aluno* alunoIncluido) {
@@ -27,7 +35,7 @@ void Disciplina::IncluirAluno(Aluno* alunoIncluido) {
 			proximoAluno = alunoIncluido;
 		}
 		else {
-			proximoAluno->prxAluno = alunoIncluido;
+			// proximoAluno->prxAluno = alunoIncluido;
 			proximoAluno = alunoIncluido;
 		}
 

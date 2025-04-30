@@ -1,15 +1,24 @@
 #include "Departamento.h"
 #include "Disciplina.h"
+#include "Universidade.h"	
 #include <string.h>
 
 Departamento::Departamento() {
 	// Construtor padrão
-	disciplinaAtual = NULL;
-	disciplinaProxima = NULL;
+	nome[0] = '\0';
+	disciplinaAtual = nullptr;
+	disciplinaProxima = nullptr;
+	universidadeAssociada = nullptr;
+	proximoDpt = nullptr;
 
 }
 Departamento::~Departamento() {
 	// Destrutor padrão
+	nome[0] = NULL;
+	disciplinaAtual = nullptr;
+	disciplinaProxima = nullptr;
+	universidadeAssociada = nullptr;
+	proximoDpt = nullptr;
 }
 void Departamento::SetNome(char* nomeParam) {
 	// Setando o nome do departamento
@@ -26,6 +35,19 @@ Universidade* Departamento::GetUniversidadeAssociada() {
 void Departamento::SetUniversidadeAssociada(Universidade* universidadeParam) {
 	// Setando a universidade associada ao departamento
 	this->universidadeAssociada = universidadeParam;
+	universidadeParam->IncluirDepartamento(this);
+
+
+
+}
+
+Departamento* Departamento::GetProximoDpt() {
+	// Retornando o próximo departamento
+	return this->proximoDpt;
+}
+void Departamento::SetProximoDpt(Departamento* proximoDptParam) {
+	// Setando o próximo departamento
+	this->proximoDpt = proximoDptParam;
 }
 
 void Departamento::IncluaDisciplina(Disciplina* proximaDisciplina) {
