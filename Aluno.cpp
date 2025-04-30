@@ -7,6 +7,7 @@ Aluno::Aluno() {
 	ra[0] = '\0';
 	nome[0] = '\0';
 	prxAluno = nullptr;
+	disciplina = nullptr;
 }
 
 // Destrutor

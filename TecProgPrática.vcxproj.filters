@@ -25,6 +25,12 @@
     <Filter Include="Source Files\ClassesEntidades">
       <UniqueIdentifier>{a7a455b5-5bd5-4048-996c-8e429881d06e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ClassesListasEntidades">
+      <UniqueIdentifier>{2f5069c0-6b7b-4683-8099-637cc01789f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassesListasEntidades">
+      <UniqueIdentifier>{6a39e02f-0eec-4149-aaad-add844423547}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Menu.cpp">
@@ -66,6 +72,18 @@
     <ClCompile Include="Departamento.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
     </ClCompile>
+    <ClCompile Include="ListaAluno.cpp">
+      <Filter>Source Files\ClassesListasEntidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaUniversidade.cpp">
+      <Filter>Source Files\ClassesListasEntidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDepartamento.cpp">
+      <Filter>Source Files\ClassesListasEntidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDisciplina.cpp">
+      <Filter>Source Files\ClassesListasEntidades</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -97,6 +115,18 @@
     </ClInclude>
     <ClInclude Include="Disciplina.h">
       <Filter>Header Files\ClassesEntidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAluno.h">
+      <Filter>Header Files\ClassesListasEntidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDepartamento.h">
+      <Filter>Header Files\ClassesListasEntidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDisciplina.h">
+      <Filter>Header Files\ClassesListasEntidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaUniversidade.h">
+      <Filter>Header Files\ClassesListasEntidades</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

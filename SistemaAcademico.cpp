@@ -1,31 +1,45 @@
 #include "SistemaAcademico.h"
 #include "Universidade.h"
+#include "ListaUniversidade.h"
 #include "Menu.h"
 
 SistemaAcademico::SistemaAcademico() {
 	// Construtor padrão
 	objMenu = new Menu();
 	universidadeProx = nullptr;
-	universidadeAtual = nullptr;
+	universidadePrim = nullptr;
 
 }
 
 SistemaAcademico::~SistemaAcademico() {
 	// Destrutor padrão
 	delete(objMenu);
+	
+	ListaUniversidade* uniAux = universidadePrim;
+
+	while (uniAux != nullptr) {
+		universidadePrim = universidadePrim->ptrProx;
+		delete uniAux;
+		uniAux = universidadePrim;
+	}
+
 	universidadeProx = nullptr;
-	universidadeAtual = nullptr;
+	universidadePrim = nullptr;
 }
 
 void SistemaAcademico::IncluirUniversidade(Universidade* universidadeIncluida) {
 	// Inclui uma universidade no sistema acadêmico
-	if (universidadeAtual == nullptr) {
-		universidadeAtual = universidadeIncluida;
-		universidadeProx = universidadeIncluida;
+	ListaUniversidade* uniAux = nullptr;
+	uniAux = new ListaUniversidade();
+	uniAux->SetUniversidade(universidadeIncluida);
+
+	if (universidadeProx == nullptr) {
+		universidadeProx = uniAux;
+		universidadePrim = uniAux;
 	}
 	else {
-		universidadeProx->SetProximaUniversidade(universidadeIncluida);
-		universidadeAtual = universidadeProx->GetProximaUniversidade();
+		universidadePrim->ptrProx = uniAux;
+		universidadePrim = uniAux;
 	}
 }
 

@@ -1,6 +1,7 @@
 #ifndef SISTEMAACADEMICO_H
 #define SISTEMAACADEMICO_H
 class Universidade;
+class ListaUniversidade;
 class Menu;
 
 class SistemaAcademico {
@@ -8,13 +9,14 @@ class SistemaAcademico {
 private:
 
 	Menu* objMenu;
-	Universidade* universidadeProx;
-	Universidade* universidadeAtual;
+	ListaUniversidade* universidadeProx;
+	ListaUniversidade* universidadePrim;
 public:
 	SistemaAcademico();
 	~SistemaAcademico();
 	void IncluirUniversidade(Universidade* universidadeIncluida);
 	Menu* GetMenu();
+	
 	
 	
 };

@@ -133,6 +133,10 @@
     <ClCompile Include="Departamento.h" />
     <ClCompile Include="Disciplina.cpp" />
     <ClCompile Include="Exibir.cpp" />
+    <ClCompile Include="ListaAluno.cpp" />
+    <ClCompile Include="ListaDepartamento.cpp" />
+    <ClCompile Include="ListaDisciplina.cpp" />
+    <ClCompile Include="ListaUniversidade.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Principal.cpp" />
@@ -146,6 +150,10 @@
     <ClInclude Include="Cadastro.h" />
     <ClInclude Include="Disciplina.h" />
     <ClInclude Include="Exibir.h" />
+    <ClInclude Include="ListaAluno.h" />
+    <ClInclude Include="ListaDepartamento.h" />
+    <ClInclude Include="ListaDisciplina.h" />
+    <ClInclude Include="ListaUniversidade.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Principal.h" />
     <ClInclude Include="Recuperar.h" />
