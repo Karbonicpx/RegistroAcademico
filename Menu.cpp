@@ -1,8 +1,5 @@
 #include "Menu.h"
-#include "Cadastro.h"
-#include "Exibir.h"
-#include "Salvar.h"
-#include "Recuperar.h"
+#include "SistemaAcademico.h"
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -12,18 +9,12 @@ Menu::Menu() {
 	// Construtor padrão
 	menuInput[0] = NULL;
 	userInput = nullptr;
-	cadastro = new Cadastro();
-	exibir = new Exibir();
-	salvar = new Salvar();
-	recuperar = new Recuperar();
+	sistemaAcademico = new SistemaAcademico();
 }
 
 Menu::~Menu() {
 	// Destrutor padrão
-	delete(cadastro);
-	delete(exibir);
-	delete(recuperar);
-	delete(salvar);
+	delete(sistemaAcademico);
 	menuInput[0] = NULL;
 	userInput = nullptr;
 }	
@@ -74,7 +65,7 @@ void Menu::MenuCadastro() {
 	cin >> menuInput[0];
 	switch (menuInput[0]) {
 	case '1':
-		cadastro->CadastroUniversidade();
+		
 		MenuCadastro();
 		break;
 	case '2':

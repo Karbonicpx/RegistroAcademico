@@ -35,7 +35,6 @@ Universidade* Departamento::GetUniversidadeAssociada() {
 void Departamento::SetUniversidadeAssociada(Universidade* universidadeParam) {
 	// Setando a universidade associada ao departamento
 	this->universidadeAssociada = universidadeParam;
-	universidadeParam->IncluirDepartamento(this);
 
 
 

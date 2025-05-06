@@ -128,36 +128,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Aluno.cpp" />
-    <ClCompile Include="Cadastrar.cpp" />
     <ClCompile Include="Departamento.cpp" />
     <ClCompile Include="Departamento.h" />
     <ClCompile Include="Disciplina.cpp" />
-    <ClCompile Include="Exibir.cpp" />
-    <ClCompile Include="ListaAluno.cpp" />
-    <ClCompile Include="ListaDepartamento.cpp" />
-    <ClCompile Include="ListaDisciplina.cpp" />
-    <ClCompile Include="ListaUniversidade.cpp" />
+    <ClCompile Include="ListaAlunos.cpp" />
+    <ClCompile Include="ListaDepartamentos.cpp" />
+    <ClCompile Include="ListaDisciplinas.cpp" />
+    <ClCompile Include="PtrAluno.cpp" />
+    <ClCompile Include="PtrDepartamento.cpp" />
+    <ClCompile Include="PtrDisciplina.cpp" />
+    <ClCompile Include="ListaUniversidades.cpp" />
+    <ClCompile Include="PtrUniversidade.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Principal.cpp" />
-    <ClCompile Include="Recuperar.cpp" />
-    <ClCompile Include="Salvar.cpp" />
     <ClCompile Include="SistemaAcademico.cpp" />
     <ClCompile Include="Universidade.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aluno.h" />
-    <ClInclude Include="Cadastro.h" />
     <ClInclude Include="Disciplina.h" />
-    <ClInclude Include="Exibir.h" />
-    <ClInclude Include="ListaAluno.h" />
-    <ClInclude Include="ListaDepartamento.h" />
-    <ClInclude Include="ListaDisciplina.h" />
-    <ClInclude Include="ListaUniversidade.h" />
+    <ClInclude Include="ListaAlunos.h" />
+    <ClInclude Include="ListaDepartamentos.h" />
+    <ClInclude Include="ListaDisciplinas.h" />
+    <ClInclude Include="ListaUniversidades.h" />
+    <ClInclude Include="PtrAluno.h" />
+    <ClInclude Include="PtrDepartamento.h" />
+    <ClInclude Include="PtrDisciplina.h" />
+    <ClInclude Include="PtrUniversidade.h" />
     <ClInclude Include="Menu.h" />
-    <ClInclude Include="Principal.h" />
-    <ClInclude Include="Recuperar.h" />
-    <ClInclude Include="Salvar.h" />
     <ClInclude Include="SistemaAcademico.h" />
     <ClInclude Include="Universidade.h" />
   </ItemGroup>

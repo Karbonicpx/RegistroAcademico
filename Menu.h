@@ -1,11 +1,6 @@
 #ifndef _MENU_H_
 #define _MENU_H_
-class Cadastro;
-class Exibir;
-class Salvar;
-class Recuperar;
-class Universidade;
-
+class SistemaAcademico;
 
 
 class Menu {
@@ -14,10 +9,7 @@ class Menu {
 private:
 	char menuInput[1];
 	char* userInput;
-	Cadastro* cadastro;
-	Exibir* exibir;
-	Salvar* salvar;
-	Recuperar* recuperar;
+	SistemaAcademico* sistemaAcademico;
 	
 public:
 	Menu();
