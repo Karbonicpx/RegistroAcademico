@@ -13,29 +13,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\ClassesDoMenu">
-      <UniqueIdentifier>{48caa73f-fafa-447b-82a8-b0ca843e5a09}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\ClassesEntidades">
       <UniqueIdentifier>{83e2649f-44b5-43dc-b0de-c893f9d5ab0a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\ClassesDoMenu">
-      <UniqueIdentifier>{d625638a-4e32-43c1-9d42-7a4d6ebeca79}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\ClassesEntidades">
       <UniqueIdentifier>{a7a455b5-5bd5-4048-996c-8e429881d06e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\ClassesListasEntidades">
-      <UniqueIdentifier>{2f5069c0-6b7b-4683-8099-637cc01789f7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\ClassesListasEntidades">
-      <UniqueIdentifier>{6a39e02f-0eec-4149-aaad-add844423547}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Source Files\ClassesDoMenu</Filter>
-    </ClCompile>
     <ClCompile Include="Aluno.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
     </ClCompile>
@@ -45,22 +30,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Salvar.cpp">
-      <Filter>Source Files\ClassesDoMenu</Filter>
-    </ClCompile>
-    <ClCompile Include="Exibir.cpp">
-      <Filter>Source Files\ClassesDoMenu</Filter>
-    </ClCompile>
-    <ClCompile Include="Recuperar.cpp">
-      <Filter>Source Files\ClassesDoMenu</Filter>
-    </ClCompile>
-    <ClCompile Include="Cadastrar.cpp">
-      <Filter>Source Files\ClassesDoMenu</Filter>
-    </ClCompile>
     <ClCompile Include="SistemaAcademico.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Principal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Disciplina.cpp">
@@ -72,61 +42,31 @@
     <ClCompile Include="Departamento.cpp">
       <Filter>Source Files\ClassesEntidades</Filter>
     </ClCompile>
-    <ClCompile Include="ListaAluno.cpp">
-      <Filter>Source Files\ClassesListasEntidades</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaUniversidade.cpp">
-      <Filter>Source Files\ClassesListasEntidades</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaDepartamento.cpp">
-      <Filter>Source Files\ClassesListasEntidades</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaDisciplina.cpp">
-      <Filter>Source Files\ClassesListasEntidades</Filter>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Menu.h">
-      <Filter>Header Files\ClassesDoMenu</Filter>
-    </ClInclude>
     <ClInclude Include="Aluno.h">
       <Filter>Header Files\ClassesEntidades</Filter>
     </ClInclude>
     <ClInclude Include="Universidade.h">
       <Filter>Header Files\ClassesEntidades</Filter>
     </ClInclude>
-    <ClInclude Include="Cadastro.h">
-      <Filter>Header Files\ClassesDoMenu</Filter>
-    </ClInclude>
-    <ClInclude Include="Exibir.h">
-      <Filter>Header Files\ClassesDoMenu</Filter>
-    </ClInclude>
-    <ClInclude Include="Salvar.h">
-      <Filter>Header Files\ClassesDoMenu</Filter>
-    </ClInclude>
-    <ClInclude Include="Recuperar.h">
-      <Filter>Header Files\ClassesDoMenu</Filter>
-    </ClInclude>
     <ClInclude Include="SistemaAcademico.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Principal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Disciplina.h">
       <Filter>Header Files\ClassesEntidades</Filter>
     </ClInclude>
-    <ClInclude Include="ListaAluno.h">
-      <Filter>Header Files\ClassesListasEntidades</Filter>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ListaDepartamento.h">
-      <Filter>Header Files\ClassesListasEntidades</Filter>
+    <ClInclude Include="Ponteiro.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ListaDisciplina.h">
-      <Filter>Header Files\ClassesListasEntidades</Filter>
-    </ClInclude>
-    <ClInclude Include="ListaUniversidade.h">
-      <Filter>Header Files\ClassesListasEntidades</Filter>
+    <ClInclude Include="Lista.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

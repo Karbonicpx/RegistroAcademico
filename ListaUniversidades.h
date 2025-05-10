@@ -1,14 +1,14 @@
 #ifndef LISTAUNIVERSIDADE_H
 #define LISTAUNIVERSIDADE_H
 
-class PtrUniversidade;
+#include "Ponteiro.h"
 class Universidade;
 
 class ListaUniversidades {
 
 private:
-	PtrUniversidade* universidadeProx;
-	PtrUniversidade* universidadePrim;
+	Ponteiro<Universidade>* universidadeProx;
+	Ponteiro<Universidade>* universidadePrim;
 
 public:
 
@@ -16,6 +16,8 @@ public:
 	~ListaUniversidades();
 	void IncluirUniversidade(Universidade* universidadeIncluida);
 	void ExibirUniversidades();
+	void GravarUniversidades();
+	void RecuperarUniversidades();
 };
 
 #endif

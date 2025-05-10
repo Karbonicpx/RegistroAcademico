@@ -1,5 +1,7 @@
 #include "Menu.h"
 #include "SistemaAcademico.h"
+#include "Lista.h"
+#include "Ponteiro.h"
 #include <iostream>
 using std::cout;
 using std::endl;

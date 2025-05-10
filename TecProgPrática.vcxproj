@@ -131,14 +131,6 @@
     <ClCompile Include="Departamento.cpp" />
     <ClCompile Include="Departamento.h" />
     <ClCompile Include="Disciplina.cpp" />
-    <ClCompile Include="ListaAlunos.cpp" />
-    <ClCompile Include="ListaDepartamentos.cpp" />
-    <ClCompile Include="ListaDisciplinas.cpp" />
-    <ClCompile Include="PtrAluno.cpp" />
-    <ClCompile Include="PtrDepartamento.cpp" />
-    <ClCompile Include="PtrDisciplina.cpp" />
-    <ClCompile Include="ListaUniversidades.cpp" />
-    <ClCompile Include="PtrUniversidade.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="SistemaAcademico.cpp" />
@@ -147,14 +139,8 @@
   <ItemGroup>
     <ClInclude Include="Aluno.h" />
     <ClInclude Include="Disciplina.h" />
-    <ClInclude Include="ListaAlunos.h" />
-    <ClInclude Include="ListaDepartamentos.h" />
-    <ClInclude Include="ListaDisciplinas.h" />
-    <ClInclude Include="ListaUniversidades.h" />
-    <ClInclude Include="PtrAluno.h" />
-    <ClInclude Include="PtrDepartamento.h" />
-    <ClInclude Include="PtrDisciplina.h" />
-    <ClInclude Include="PtrUniversidade.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="Ponteiro.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="SistemaAcademico.h" />
     <ClInclude Include="Universidade.h" />
